@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "extravanillacrafts",
+  "version": "${version}",
+  "name": "ExtraVanillaCrafts",
+  "description": "Adds craftings to otherwise rare/difficult vanilla items to obtain",
+  "authors": [
+    "Luligabi1"
+  ],
+  "contact": {
+    "website": "a",
+    "repo": "https://github.com/Luligabi1/ExtraVanillaCrafts"
+  },
+  "license": "MIT",
+  "icon": "assets/extravanillacrafts/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.luligabi.extravanillacrafts.ExtraVanillaCraftsClient"
+    ],
+    "main": [
+      "me.luligabi.extravanillacrafts.ExtraVanillaCrafts"
+    ]
+  },
+  "mixins": [
+    "extravanillacrafts.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}

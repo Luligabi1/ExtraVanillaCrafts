@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "GCW",
+    " P "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "G": {
+      "item": "minecraft:green_dye"
+    },
+    "C": {
+      "item": "minecraft:clay_ball"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "P": {
+      "item": "minecraft:potato"
+    }
+  },
+  "result": {
+    "item": "minecraft:slime_ball",
+    "count": 4
+  }
+}
